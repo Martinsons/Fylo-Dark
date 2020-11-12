@@ -4,4 +4,19 @@
     grid-template-columns: repeat(2, 1fr);
 
   }
+
+  body .productive-container {
+    display: flex;
+    align-items: center;
+  }
+
+  body .prod-text {
+    width: 50%;
+  }
+
+  body .prod-text h3 {
+    font-size: 30px;
+    width: 60%;
+  }
+ 
 }
