@@ -19,4 +19,36 @@
     width: 60%;
   }
  
+  .cards-info {
+    display: flex;
+  }
+
+  .cards-info .card {
+    margin: 20px;
+  }
+
+  body .early-access {
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 40px;
+  }
+
+  body .early-access p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  body .input {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body .input .email {
+    padding-right: 270px;
+  }
+
+  body .input .btn {
+    margin-bottom: 0;
+  }
 }
