@@ -84,3 +84,27 @@ header p {
   color: hsl(0, 0%, 100%);
   background-color: hsl(198, 60%, 50%);
 }
+
+.info__section {
+  background-color: hsl(217, 28%, 15%);
+  padding: 40px 0;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  padding: 20px 40px;
+  margin: 20px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+
+.info h3 {
+  margin: 10px 0;
+}
+
