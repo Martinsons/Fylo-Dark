@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/responsive.css">
   <link rel="stylesheet" href="./css/style.css">
   <title>Fylo Dark Theme</title>
@@ -33,7 +34,7 @@
 
 <section class="info__section">
   <div class="container">
-    <div class="info-section">
+    <div class="info-section" data-aos="fade-zoom-in">
       <div class="info">
         <img src="./img/icon-access-anywhere.svg" alt="">
         <h3>Access your files, anywhere</h3>
@@ -84,7 +85,7 @@
 
 <section class="cards">
   <div class="container">
-    <div class="cards-info">
+    <div class="cards-info" data-aos="flip-up">
       <div class="card">
         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.</p>
@@ -134,5 +135,11 @@
     </div>
   </div>
 </section>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
